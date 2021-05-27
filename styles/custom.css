@@ -1,0 +1,278 @@
+@font-face {
+  font-family: "SCG";
+  src: url("../fonts/SCG-Bold.woff2") format("woff2"), url("../fonts/SCG-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SCG";
+  src: url("../fonts/SCG-Light.woff2") format("woff2"), url("../fonts/SCG-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SCG";
+  src: url("../fonts/SCG-Regular.woff2") format("woff2"), url("../fonts/SCG-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "SCG";
+  font-weight: normal;
+  font-style: normal;
+}
+
+Î
+/* Navbar ==============*/
+
+.bg-custom {
+  background-color: transparent !important;
+}
+
+.bg-custom.scrolled {
+  background-color: #333 !important;
+}
+
+.navbar {
+  padding: 1rem 1rem;
+}
+
+.nav-logo {
+  width: 185px;
+}
+
+.nav-link {
+  font-family: "Yu Gothic UI";
+  color: #ffffff !important;
+  font-size: 16px;
+}
+
+/* End Navbar ==========*/
+
+/* Styles ==============*/
+
+.border-yellow {
+  border: 5px solid #f4df4c;
+  width: 220px;
+  border-radius: 5px;
+}
+
+.border-yellow-head {
+  border: 2px solid #f4df4c;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.border-yellow-ceo-detail {
+  border: 2px solid #f4df4c;
+  width: 80px;
+  border-radius: 5px;
+}
+
+.border-yellow-ceo-detail-md {
+  border: 2px solid #f4df4c;
+  width: 190px;
+  border-radius: 5px;
+}
+
+.border-yellow-detail {
+  border: 2px solid #f4df4c;
+  width: 80px;
+  border-radius: 5px;
+}
+
+.page-part-1 {
+  background-image: url("../images/BG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0px 200px 0px;
+}
+
+.page-part-2 {
+  background-image: url("../images/pact-desktop.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 400px;
+}
+
+.page-part-3 {
+  background-image: url("../images/blue-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 77px;
+}
+
+.page-part-4 {
+  box-shadow: 1px 1px 10px 4px #efefef;
+  background-color: #ffffff;
+}
+
+.page-part-5 {
+  background-image: url("../images/footer-website.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 0 30px 0px;
+}
+
+.page-part-6 {
+  background-image: url("../images/gold-logo.png");
+  background-repeat: repeat-x;
+  background-size: cover;
+  padding: 8px;
+}
+
+.page-part-7 {
+  background-image: url("../images/contact-website.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 400px;
+}
+
+.pic-point {
+  width: 65px;
+}
+
+.pic-map {
+  background-image: url("../images/map.png");
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+
+.pic-socialmedia {
+  background-image: url("../images/socialmedia.png");
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+
+.font-page-1 {
+  color: white;
+  font-weight: bold;
+  font-size: 47px;
+}
+
+.font-page-2 {
+  color: #f2f2f2;
+  font-size: 23px;
+}
+
+.font-page-white-1 {
+  font-weight: bold;
+  font-size: 39px;
+}
+
+.font-page-white-2 {
+  font-size: 18px;
+}
+
+.font-page-white-3 {
+  font-size: 17px;
+}
+
+.padding-page-blue {
+  padding-bottom: 75px;
+}
+
+.font-page-blue-1 {
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.font-page-blue-2 {
+  color: white;
+  font-size: 18px;
+}
+
+.font-secure-1 {
+  color: white;
+  font-size: 20px;
+}
+
+.font-secure-2 {
+  color: #f5df4d;
+  font-size: 20px;
+}
+
+.footer-media {
+  width: 75%;
+}
+
+/* Styles ==============*/
+
+/* =====================================================
+MOBILE SIZE 
+=======================================================*/
+
+@media (max-width: 575.98px) {
+  .page-part-1 {
+    background-image: url("../images/BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 5px 10px 5px;
+  }
+  .border-yellow {
+    border: 2px solid #f4df4c;
+    width: 70px;
+    border-radius: 5px;
+  }
+  .font-page-1 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .font-page-2 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .font-page-white-1 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .font-page-white-2 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .font-page-white-3 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .font-page-blue-1 {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .font-page-blue-2 {
+    color: white;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .font-secure-1 {
+    color: white;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .font-secure-2 {
+    color: #f5df4d;
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .pic-point {
+    width: 50px;
+  }
+  .text-point {
+    font-size: 14px;
+  }
+  .text-footer {
+    font-size: 12px;
+  }
+}
